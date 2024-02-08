@@ -1,57 +1,13 @@
 # sample-tauri-app
 Tauri practice project
 
-## create rust project
-```
-cargo new <project_name>
-```
+see : https://thinkit.co.jp/series/11012
 
-## run
-```
-cargo run
-```
 
-## manage package : cargo-edit
-1. install cargo-edit
-```
-cargo install cargo-edit
-```
+## Tauri + Vanilla
 
-```
-# add package
-cargo add <package_name>
-cargo add <package_name>@<version>
+This template should help get you started developing with Tauri in vanilla HTML, CSS and Javascript.
 
-# add package (only dev)
-cargo add <package_name> --dev
+## Recommended IDE Setup
 
-# upgrade package
-cargo upgrade <package_name>
-
-# delete package
-cargo rm <package_name>
-```
-
-## file change detection : cargo-watch
-1. install cargo-watch
-```
-cargo install cargo-watch
-```
-
-2. command
-```
-# auto check
-cargo watch -x check
-
-# auto test
-cargo watch -x test
-
-# auto run
-cargo watch -x run
-
-# auto check, test and run
-cargo watch -x check -x test -x run
-
-# auto custom command
-cargo watch -- echo Hello
-```
+- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
